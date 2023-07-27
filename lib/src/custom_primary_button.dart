@@ -9,9 +9,6 @@ class PrimaryButton extends StatelessWidget {
     var text = '';
     onPressed() {}
     return ButtonsManager.primaryButton(
-        text: text,
-        onPressed: onPressed,
-        context: context
-        );
+        text: text, onPressed: onPressed, context: context);
   }
 }
