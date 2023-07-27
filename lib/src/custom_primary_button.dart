@@ -6,10 +6,12 @@ class PrimaryButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  ButtonsManager.primaryButton(
-      text: 'Primary Button',
-      onPressed: () {},
-      context: context,
-    );
+    var text = '';
+    onPressed() {}
+    return ButtonsManager.primaryButton(
+        text: text,
+        onPressed: onPressed,
+        context: context
+        );
   }
 }
